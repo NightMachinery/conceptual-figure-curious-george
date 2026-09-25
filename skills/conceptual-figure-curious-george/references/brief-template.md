@@ -18,7 +18,7 @@ understand, and where it will likely sit.>
 
 Sources of truth (read before designing): <paths>.
 Terms to use: <the document's names for the key concepts>.
-Existing figures not to redraw: <paths and what they show>. Their colour meanings: <roles>.
+Existing figures not to redraw: <paths and what they show>. Their color meanings: <roles>.
 
 ## Rules that bind you
 

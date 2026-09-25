@@ -47,7 +47,7 @@ The discussion board lives in scratch space outside the repository (`references/
 Each phase ends at a gate; do not start the next phase before the gate passes.
 
 1. **Intake** (coordinator). Identify the document, its sources of truth for the figure's content,
-   its existing figures (the new one must not redraw them, and should share their colour meanings),
+   its existing figures (the new one must not redraw them, and should share their color meanings),
    its terminology and style rules. Pick `figure_slug`, create `<root>/<figure_slug>/`, set up the
    backend scaffold (`references/backends/<backend>.md`) and test-build its example. Write the shared
    designer brief from `references/brief-template.md`. Gate: the example builds at true size.
@@ -57,7 +57,7 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
 3. **Hand-off** (designers). Each writes `handoff-t2i.md` (`references/t2i-prompt.md`) and
    `handoff-<backend>.md`, commits its directory, and asks for approval (`references/roles.md`).
    Gate: you approve. Check distinctness, fidelity to the sources (verify every quoted string and
-   number against them), the document's rules, and colour consistency with its existing figures.
+   number against them), the document's rules, and color consistency with its existing figures.
    Send concrete corrections; approve only when every design is sound.
 4. **Reference images** (user). Give the user the list of `handoff-t2i.md` paths and where to save
    each image. Designers wait. Gate: the images exist (skipped only if `reference_images: skip`).

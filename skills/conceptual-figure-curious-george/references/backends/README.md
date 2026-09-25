@@ -15,7 +15,7 @@ A backend file defines:
   a vector file and a PNG beside the source.
 - **Source naming**: the source extension for `<slug>-r<N>.<src>`.
 - **Ignore rules**: the `<figure>/.gitignore` lines for generated drafts and build output only.
-- **Idioms**: conventions builders follow (named styles, colour definitions, units), and how to
+- **Idioms**: conventions builders follow (named styles, color definitions, units), and how to
   match the document's existing figures in this backend.
 - **Integration**: how the chosen source goes into the document later, for the user's reference.
 

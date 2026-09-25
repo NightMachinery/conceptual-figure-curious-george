@@ -7,7 +7,7 @@
    - text overflowing its box or the page, collisions, cramped labels;
    - alignment to a grid, consistent spacing and line weights;
    - hierarchy: does the eye land first where the brief says it should;
-   - colour roles, contrast, and consistency with the document's existing figures;
+   - color roles, contrast, and consistency with the document's existing figures;
    - fidelity: every string as specified, nothing extra;
    - notation: every symbol in the figure is defined in the figure or is standard for its readers;
    - self-explanation: each label, subtitle and legend entry makes sense to a reader who has not read

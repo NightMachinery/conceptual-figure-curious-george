@@ -18,6 +18,6 @@ idea in plain language and gives:
   - soft rounded panels, hairline rules, uniform line weights;
   - no drop shadows, gradients, 3D, clip art or icons;
   - no title or caption inside the image;
-- a closing checklist the model verifies before finishing (structure, strings, colour roles).
+- a closing checklist the model verifies before finishing (structure, strings, color roles).
 
 Open with an instruction to generate the image directly rather than build a vector graphic.

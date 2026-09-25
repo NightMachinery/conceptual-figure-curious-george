@@ -45,7 +45,7 @@ so sources, hand-offs and reference images stay tracked.
 
 ## Idioms
 
-- `x=1cm, y=1cm`; named styles in the `tikzpicture` options; colours via
+- `x=1cm, y=1cm`; named styles in the `tikzpicture` options; colors via
   `\definecolor{<prefix>Name}{HTML}{......}` with a per-design prefix so designs never clash with
   each other or with the document.
 - Arrow tips from `arrows.meta` (`Stealth`); libraries limited to those the preamble loads.
@@ -55,4 +55,4 @@ so sources, hand-offs and reference images stay tracked.
 ## Integration
 
 The chosen draft's `tikzpicture` and caption move into a `figure` float in the document, the
-stand-in references become `\cref`s, and its colour definitions go beside it.
+stand-in references become `\cref`s, and its color definitions go beside it.
