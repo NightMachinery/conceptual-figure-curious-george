@@ -69,7 +69,8 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
 6. **Build** (builders). Each designer spawns one builder with the revised brief and the reference.
    The builder runs the visual loop (`references/visual-loop.md`) until it cannot improve the draft,
    submits it, and iterates on the designer's feedback for up to `feedback_rounds` rounds.
-   Gate: the designer reports `FINAL`.
+   View every submitted round yourself and relay the user's comments; a reader outside the design
+   catches what its designer no longer sees. Gate: the designer reports `FINAL`.
 7. **Present** (coordinator). View every final render yourself. Present the candidates side by side:
    organizing idea, what each adopted from its reference, open nits, the proposed caption, file
    paths. Push the commits. Stop.

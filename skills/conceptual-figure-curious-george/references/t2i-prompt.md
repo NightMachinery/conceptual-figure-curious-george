@@ -8,7 +8,8 @@ idea in plain language and gives:
 
 - the purpose: what a reader should understand at a glance, in two to four points;
 - the composition: regions, their order, grouping, what connects to what;
-- every text string to render, spelled exactly, and nothing else;
+- every text string to render, spelled exactly, and nothing else; plain words over notation the
+  image does not define (a symbol such as a subject variable needs its meaning in the figure);
 - what must not appear (numbers the figure does not claim, other figures' content, titles);
 - modern styling, stated explicitly:
   - restrained typography, one serif or sans family, few sizes;

@@ -9,6 +9,7 @@
    - hierarchy: does the eye land first where the brief says it should;
    - colour roles, contrast, and consistency with the document's existing figures;
    - fidelity: every string as specified, nothing extra;
+   - notation: every symbol in the figure is defined in the figure or is standard for its readers;
    - the caption: short, clear, true to the figure.
 4. Fix the most important problems, rebuild, view again.
 5. Stop when a pass finds nothing worth changing. Then submit, as a new `r<N>`.

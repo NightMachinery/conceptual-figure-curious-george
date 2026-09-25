@@ -26,7 +26,11 @@
 
 - Source of truth: `handoff-<backend>.md`. Visual target: the reference image, viewed before
   drawing anything.
-- Works only in its design directory; scratch goes in the backend's build directory.
+- Works only in its design directory; scratch files go in the backend's build directory, never
+  beside the sources.
+- Measures real sizes in the document's class: size commands differ between classes, so a brief's
+  sizes are points, and the builder checks what the class actually sets.
+- A round started from a superseded brief is discarded, not submitted.
 - Runs the visual loop; every submitted round is a new `<slug>-r<N>` source; never overwrites one.
 - Submits paths of the source and render, plus what it could not resolve.
 
