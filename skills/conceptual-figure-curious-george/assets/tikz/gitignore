@@ -1,0 +1,4 @@
+# Generated drafts only; sources, hand-offs and reference images are tracked.
+*-r[0-9]*.pdf
+*-r[0-9]*.png
+build/

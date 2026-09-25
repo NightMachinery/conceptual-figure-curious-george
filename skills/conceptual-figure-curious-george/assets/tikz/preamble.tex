@@ -1,0 +1,17 @@
+% Draft preamble. Adapt the first block to the host document: its class or style files, fonts,
+% packages and macro files, in the document's order. Keep the preview block at the end.
+\documentclass{article}
+% \usepackage{<document style>}        % e.g. the conference style file
+% \input{<document macros>}            % the document's macro and notation files
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning,fit,backgrounds,shapes.misc,decorations.pathreplacing}
+\pagestyle{empty}
+
+% One text-width block per page: the figure and its caption at true size.
+\usepackage[active,tightpage]{preview}
+\setlength\PreviewBorder{4pt}
+\newenvironment{draftfigure}{\begin{preview}\begin{minipage}{\textwidth}\centering}{\end{minipage}\end{preview}}
