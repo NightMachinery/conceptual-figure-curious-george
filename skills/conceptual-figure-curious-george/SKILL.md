@@ -85,6 +85,10 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
 
 ## References
 
+Paths below are relative to the directory of the resolved `SKILL.md`. If this file is a symlink
+(installers often link only `SKILL.md`), resolve it first; `references/`, `assets/` and `scripts/`
+sit beside the real file.
+
 - `references/roles.md`: coordinator, designer and builder duties, report formats, git.
 - `references/board.md`: how designers discuss and converge.
 - `references/brief-template.md`: the shared designer brief.
