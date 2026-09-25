@@ -14,4 +14,6 @@
 % One text-width block per page: the figure and its caption at true size.
 \usepackage[active,tightpage]{preview}
 \setlength\PreviewBorder{4pt}
+% The build also renders a figure-only page (jobname <name>-nocaption) for cold reads.
+\ifdefined\draftnocaption\AtBeginDocument{\RenewDocumentCommand\captionof{m o m}{}}\fi
 \newenvironment{draftfigure}{\begin{preview}\begin{minipage}{\textwidth}\centering}{\end{minipage}\end{preview}}

@@ -15,6 +15,13 @@ designer spawn its own builder. Where a host lacks one, the coordinator fills th
 - Designers spawn their builders with `Agent`. If that fails, the designer reports `BLOCKED` and the
   coordinator spawns the builder and relays drafts and feedback.
 
+- Cold reads (`visual-loop.md`) run in a separate process, not an in-process subagent:
+  `scripts/cold-read.sh` starts `claude -p --restricted --tools Read --strict-mcp-config` in a
+  temporary directory holding only the render (and the caption, for the second question).
+  `--restricted` confines the file tools to that directory, so the reader cannot open the document,
+  and no project instructions or memory load there. `--permission-mode default` is passed because a
+  profile whose default mode is `plan` would refuse otherwise.
+
 ## Other hosts
 
 Without messaging, run the phases as rounds: the coordinator starts each designer for one phase,

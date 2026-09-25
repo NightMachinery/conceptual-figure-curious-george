@@ -35,7 +35,8 @@ a table) use stand-in text in the draft, with the real `\cref` kept in a comment
 ```
 
 It compiles in `design-<x>/build/` (private to that design, so designs build in parallel) and writes
-`<slug>-r<N>.pdf` and a 200 dpi `<slug>-r<N>.png` beside the source.
+`<slug>-r<N>.pdf`, a 200 dpi `<slug>-r<N>.png` and `<slug>-r<N>-nocaption.png` (the figure alone,
+for cold reads; the preamble drops `\captionof` when `\draftnocaption` is defined) beside the source.
 
 ## Naming and ignore rules
 

@@ -22,8 +22,13 @@ Designers use steps 2 and 3 to review a submitted draft, and write the result as
 ## Cold-read test
 
 Polish rounds converge to near-identical drafts; comprehension is what feedback must test. Before
-each feedback round, the designer spawns a fresh subagent that sees only the render (no brief, no
-document, no caption) and asks it to explain what the figure shows and claims, to list every label,
-symbol or mark it cannot interpret, and then, given the caption, what changed in its understanding.
-Every misreading or unclear item is mandatory feedback. Use a new cold reader each round. A draft
-passes when a cold reader explains it correctly with nothing unclear.
+each feedback round, the designer runs a fresh reader that sees only the figure-only render
+(`<slug>-r<N>-nocaption.png`, from the build), never the brief or the document: it explains what the
+figure shows and claims, lists every label, symbol or mark it cannot interpret or that looks
+inconsistent, and says what each quantity measures; then, given the caption, what changed. Every
+misreading, unclear item or inconsistency is mandatory feedback. Use a new reader each round. A
+draft passes when a reader explains it correctly with nothing unclear.
+
+The reader must be isolated for real, not by instruction: a subagent that shares the designer's
+working directory can open the document on its own. `hosts.md` gives an isolated launch per host;
+on Claude Code, `scripts/cold-read.sh <figure-only.png> [caption-file] [model]`.
