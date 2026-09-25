@@ -68,7 +68,8 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
    (terms, exact strings, rules). Gate: the revised brief is committed.
 6. **Build** (builders). Each designer spawns one builder with the revised brief and the reference.
    The builder runs the visual loop (`references/visual-loop.md`) until it cannot improve the draft,
-   submits it, and iterates on the designer's feedback for up to `feedback_rounds` rounds.
+   submits it, and iterates on the designer's feedback (led by a cold-read test) for up to
+   `feedback_rounds` rounds.
    View every submitted round yourself and relay the user's comments; a reader outside the design
    catches what its designer no longer sees. When the user must choose between options for part of
    a figure, render each option as its own draft (`<slug>-r<N>-<option>`) so they can compare the

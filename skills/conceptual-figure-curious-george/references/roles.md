@@ -19,8 +19,9 @@
 - After the reference arrives, revises `handoff-<backend>.md` from it (SKILL.md phase 5).
 - Spawns exactly one builder. If a builder is already running when the brief changes, sends it the
   revised brief instead of spawning another.
-- Reviews each submitted draft by viewing its render; feedback is a numbered list of concrete
-  changes. At most `feedback_rounds` rounds.
+- Reviews each submitted draft by viewing its render and running the cold-read test
+  (`visual-loop.md`); feedback is a numbered list of concrete changes, comprehension problems
+  first, polish last. At most `feedback_rounds` rounds.
 
 ## Builder
 

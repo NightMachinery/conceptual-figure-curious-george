@@ -18,3 +18,12 @@
 5. Stop when a pass finds nothing worth changing. Then submit, as a new `r<N>`.
 
 Designers use steps 2 and 3 to review a submitted draft, and write the result as numbered feedback.
+
+## Cold-read test
+
+Polish rounds converge to near-identical drafts; comprehension is what feedback must test. Before
+each feedback round, the designer spawns a fresh subagent that sees only the render (no brief, no
+document, no caption) and asks it to explain what the figure shows and claims, to list every label,
+symbol or mark it cannot interpret, and then, given the caption, what changed in its understanding.
+Every misreading or unclear item is mandatory feedback. Use a new cold reader each round. A draft
+passes when a cold reader explains it correctly with nothing unclear.
