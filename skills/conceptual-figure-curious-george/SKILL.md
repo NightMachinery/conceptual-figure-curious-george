@@ -81,7 +81,8 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
 
 - The document's content sources win over the brief, the brief over the reference image.
 - Captions and in-figure text are proposals; the author owns the wording.
-- A schematic figure says it is schematic; it never implies data it does not show.
+- A figure with invented values says so in plain words ("illustrative values, not measured"); it never
+  implies data it does not show.
 - Each role writes only inside its own design directory; the coordinator owns `common/` and pushes.
 - Commit with explicit pathspecs; concurrent agents share the index (`references/roles.md`).
 - Respect the host project's rules on compute, privacy and style; pass them into every brief.
