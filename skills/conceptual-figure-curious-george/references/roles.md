@@ -3,7 +3,7 @@
 ## Coordinator
 
 - Runs intake, writes the shared brief, spawns the designers, relays what the host cannot deliver
-  directly (`hosts.md`).
+  directly (SKILL.md, Harness).
 - Approves hand-offs (SKILL.md phase 3). Approval is a message naming the design; corrections are
   concrete ("orange means held-out in the existing figure; use it for H, not for relation C").
 - After approval, tells each designer to stop until the reference images exist, then sends the

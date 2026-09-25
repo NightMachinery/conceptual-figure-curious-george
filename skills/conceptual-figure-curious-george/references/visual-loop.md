@@ -30,5 +30,5 @@ misreading, unclear item or inconsistency is mandatory feedback. Use a new reade
 draft passes when a reader explains it correctly with nothing unclear.
 
 The reader must be isolated for real, not by instruction: a subagent that shares the designer's
-working directory can open the document on its own. `hosts.md` gives an isolated launch per host;
+working directory can open the document on its own. The Harness section of SKILL.md gives an isolated launch per harness;
 on Claude Code, `scripts/cold-read.sh <figure-only.png> [caption-file] [model]`.

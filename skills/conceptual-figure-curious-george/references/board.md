@@ -21,5 +21,5 @@ A scratch directory outside the repository, one subdirectory per designer:
    other moves. Stop after `discussion_exchanges` exchanges: converge rather than polish.
 
 Designers wait for each other by polling the board with a background loop, never a foreground
-sleep. Direct messages between designers are allowed where the host supports them (`hosts.md`); the
-board stays the record either way.
+sleep. Direct messages between designers are allowed where the harness supports them (SKILL.md,
+Harness); the board stays the record either way.
