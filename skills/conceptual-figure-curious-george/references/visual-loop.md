@@ -10,6 +10,9 @@
    - colour roles, contrast, and consistency with the document's existing figures;
    - fidelity: every string as specified, nothing extra;
    - notation: every symbol in the figure is defined in the figure or is standard for its readers;
+   - self-explanation: each label, subtitle and legend entry makes sense to a reader who has not read
+     the document, in plain words; technical terms carry a short gloss; no vague hedges (say
+     "illustrative values, not measured", not "schematic");
    - the caption: short, clear, true to the figure.
 4. Fix the most important problems, rebuild, view again.
 5. Stop when a pass finds nothing worth changing. Then submit, as a new `r<N>`.

@@ -70,7 +70,9 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
    The builder runs the visual loop (`references/visual-loop.md`) until it cannot improve the draft,
    submits it, and iterates on the designer's feedback for up to `feedback_rounds` rounds.
    View every submitted round yourself and relay the user's comments; a reader outside the design
-   catches what its designer no longer sees. Gate: the designer reports `FINAL`.
+   catches what its designer no longer sees. When the user must choose between options for part of
+   a figure, render each option as its own draft (`<slug>-r<N>-<option>`) so they can compare the
+   images. Gate: the designer reports `FINAL`.
 7. **Present** (coordinator). View every final render yourself. Present the candidates side by side:
    organizing idea, what each adopted from its reference, open nits, the proposed caption, file
    paths. Push the commits. Stop.
