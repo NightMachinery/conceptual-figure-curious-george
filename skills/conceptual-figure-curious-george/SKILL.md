@@ -58,7 +58,7 @@ Each phase ends at a gate; do not start the next phase before the gate passes.
    `handoff-<backend>.md`, commits its directory, and asks for approval (`references/roles.md`).
    Gate: you approve. Check distinctness, fidelity to the sources (verify every quoted string and
    number against them), the document's rules, and colour consistency with its existing figures.
-   Send concrete corrections; approve only when all three designs are sound.
+   Send concrete corrections; approve only when every design is sound.
 4. **Reference images** (user). Give the user the list of `handoff-t2i.md` paths and where to save
    each image. Designers wait. Gate: the images exist (skipped only if `reference_images: skip`).
    The user may supply several images per design and name the one to use.
