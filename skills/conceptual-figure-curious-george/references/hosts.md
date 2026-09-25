@@ -14,7 +14,6 @@ designer spawn its own builder. Where a host lacks one, the coordinator fills th
   reference go-ahead and corrections.
 - Designers spawn their builders with `Agent`. If that fails, the designer reports `BLOCKED` and the
   coordinator spawns the builder and relays drafts and feedback.
-
 - Cold reads (`visual-loop.md`) run in a separate process, not an in-process subagent:
   `scripts/cold-read.sh` starts `claude -p --restricted --tools Read --strict-mcp-config` in a
   temporary directory holding only the render (and the caption, for the second question).
