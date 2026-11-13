@@ -6,8 +6,8 @@
   directly (SKILL.md, Harness).
 - Approves hand-offs (SKILL.md phase 3). Approval is a message naming the design; corrections are
   concrete ("orange means held-out in the existing figure; use it for H, not for relation C").
-- After approval, tells each designer to stop until the reference images exist, then sends the
-  go-ahead with the chosen image's path.
+- After approval, tells each designer to stop until the reference images exist
+  (`reference-images.md`), views each image, then sends the go-ahead with the chosen image's path.
 - Views every submitted final render before presenting it. Pushes all commits at the end.
 
 ## Designer

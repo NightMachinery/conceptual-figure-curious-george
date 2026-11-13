@@ -29,7 +29,8 @@ Designers develop different concepts and write image-generation prompts. You gen
 image from each prompt and supply it to the agent. Builders then draw and refine the vector figures,
 including checks that a fresh reader can understand them. You choose the final candidate.
 
-Reference images are required by default; ask to skip them for a workflow without that manual step.
+By default you generate the reference images. Ask for the automatic lane to have an agent with an
+image-generation tool make them instead, so the run needs no manual step, or ask to skip them.
 Candidate count, feedback rounds, output location, and backend are configurable in the
 [skill guide](skills/conceptual-figure-curious-george/SKILL.md).
 

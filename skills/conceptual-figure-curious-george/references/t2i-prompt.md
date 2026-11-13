@@ -1,7 +1,8 @@
 # The reference-image prompt (`handoff-t2i.md`)
 
-The file is the bare prompt: the user copies the whole file into an image model. No heading, no
-"paste below the line", no notes to the user.
+The file is the bare prompt: the whole file goes into an image model, pasted by the user or passed
+by an image agent (`reference-images.md`). No heading, no "paste below the line", no notes to
+whoever runs the model.
 
 It must stand alone. The image model knows nothing about the document, so the prompt explains the
 idea in plain language and gives:
