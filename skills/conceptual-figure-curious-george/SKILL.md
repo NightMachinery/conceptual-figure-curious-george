@@ -103,7 +103,9 @@ designer spawn its own builder. Where a harness lacks one, the coordinator fills
 - After spawning, send every designer its siblings' agent IDs with `SendMessage`; siblings can then
   message each other. The board remains the record.
 - A designer that has finished its turn is resumed by `SendMessage`; use this for approvals, the
-  reference go-ahead and corrections.
+  reference go-ahead and corrections. A turn can also end while the designer's builder is still
+  working, with a message that is not one of the reports in `references/roles.md`: that is a pause,
+  not a gate, so resume the designer and name the report you are waiting for.
 - Designers spawn their builders with `Agent`. If that fails, the designer reports `BLOCKED` and the
   coordinator spawns the builder and relays drafts and feedback.
 - Cold reads (`visual-loop.md`) run in a separate process, not an in-process subagent:
